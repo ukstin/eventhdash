@@ -32,5 +32,5 @@ public class EventoController {
 		LocalDate dataFim = LocalDate.parse(fim);
 		return dao.findAllByDataBetweenOrderByDataAsc(dataIni, dataFim);
 	}
-	
+
 }

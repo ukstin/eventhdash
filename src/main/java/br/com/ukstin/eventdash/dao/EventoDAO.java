@@ -10,4 +10,5 @@ import br.com.ukstin.eventdash.model.Evento;
 public interface EventoDAO extends CrudRepository<Evento, Integer>{
 
 	public ArrayList<Evento> findAllByDataBetweenOrderByDataAsc(LocalDate inicio, LocalDate fim);
+
 }
